@@ -33,7 +33,6 @@ ul li{
     height:50px;
     border-radius: 25px;
     padding: 20px;
-    font-weight: bold;
     font-size: 20px;
     background-color: rgba(169, 169, 169, 0.234);
     border: none;
@@ -165,8 +164,9 @@ justify-content: space-between;
 align-items: center;
 
  padding:50px ;
- background-color: chartreuse;
+ /* background-color: chartreuse; */
  border-radius:7px;
+ background-color: rgb(42, 189, 12);
 }
 
 .gori img{
@@ -300,4 +300,67 @@ height: 202px;
     font-weight: bold;
     font-size: 24px;
     color: white;
+}
+@media( max-width:576px){
+    body{
+        padding: 20px;
+    }
+    .input-oo{
+        width:350px;
+        height: 30px;
+    }
+    nav{
+        max-width:554px;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .banner{
+        flex-direction: column;
+        gap:1px;
+    }
+    .categorie-div{
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .shoe-3-flex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-left h1{
+        font-weight: bold;
+        font-size:30px;
+        margin-bottom: 8px;
+        
+
+    }
+    .banner-left {
+    /* width:554px; */
+    height: 319px;
+    margin: 0 auto;
+   }
+   .banner-left p{
+    width:auto;
+    font-weight: bold;
+    font-size:16px;
+    line-height: 25px;
+    margin-bottom: 8px;
+    color: #707070;
+   }
+    .vvvvv{
+        margin: 0 auto;
+    }
+    .footer{
+        margin: 0 auto;
+        justify-items: center;
+    }
+    .footer input{
+    border: none;
+    width:400px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    padding: 20px;
+    }
 }
