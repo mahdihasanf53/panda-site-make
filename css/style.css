@@ -82,6 +82,7 @@ ul li{
     font-size:16px;
     line-height: 25px;
     margin-bottom: 8px;
+    color: #707070;
 }
 .tv{
     width:402px;
@@ -102,12 +103,15 @@ ul li{
     width: 168px;
     height:52px;
     color:white;
-    background-color: rgb(255, 0, 115);
+    background-color:rgb(132, 3, 253);
     font-weight:500px;
     font-size: 16px;
     margin-top: 8px;
     border: none;
     border-radius:6px ;
+}
+.btn-banner:hover{
+    background-color: chocolate;
 }
 .antity{
     color: white;
@@ -128,7 +132,6 @@ button::after{
 display: flex;
 justify-content: space-between;
 gap: 26px;
-margin: ;
 
 }
 .gori{
@@ -247,7 +250,7 @@ height: 202px;
     margin-top: 16px;
 }
 .btn-shoe:hover{
-    background-color: rgb(5, 175, 254);
+    background-color: chocolate;
 }
 .shoe-3-flex{
     display: flex;
@@ -255,9 +258,9 @@ height: 202px;
     max-width: 1130px;
     margin: 0 auto;
 }
-a{
+/* .anchorr{
     text-decoration: none;
-}
+} */
 /* footerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr */
 .footer{
     background-color: rgba(255, 212, 196, 0.473) ;
